@@ -1,0 +1,55 @@
+.navbar{
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    z-index: 30;
+    &_container{
+        width: 75%;
+        height: 68px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_logo{
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            span{
+                color: #3c90f7;
+                font-weight: bold;
+            }
+        }
+        &_items{
+            color: rgba(255, 255, 255, 0.7) !important;
+            ul{
+                display: flex;
+            align-items: center;
+            li{
+                cursor: pointer;
+                transition: 300ms;
+                padding: 0px 20px;
+                
+            }
+            a{
+                color: rgba(255, 255, 255, 0.7);
+            }
+            }
+
+        }
+    }
+}
+.active{
+    background-color: white;
+    
+}
+.color{
+    color: black !important;
+    
+        a{
+            color: black !important;
+        }
+    
+    li:hover{
+        color: #3c90f7;
+    }
+}

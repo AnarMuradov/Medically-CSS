@@ -1,0 +1,90 @@
+.form {
+  width: 100%;
+  height: 450px;
+  &_container {
+    width: 75%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_contact {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      &_location {
+        display: flex;
+        align-items: center;
+
+        gap: 20px;
+        i {
+          font-size: 17px;
+          color: #68e1f6;
+        }
+        &_info {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          p {
+            font-size: 17px;
+            font-weight: bolder;
+          }
+          span {
+            font-size: 15px;
+            color: #777777;
+          }
+        }
+      }
+    }
+    &_box {
+      width: 850px;
+      &_row1 {
+        display: flex;
+        gap: 40px;
+        &_input {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          input {
+            font-size: 13px;
+            line-height: 26px;
+            color: #999;
+            border: 1px solid #eeeeee;
+            font-family: "Roboto", sans-serif;
+            border-radius: 0px;
+            padding-left: 20px;
+            width: 400px;
+            height: 38px;
+          }
+        }
+        textarea{
+            font-size: 13px;
+            line-height: 26px;
+            color: #999;
+            border: 1px solid #eeeeee;
+            font-family: "Roboto", sans-serif;
+            border-radius: 0px;
+            padding-left: 20px;
+            width: 400px;
+            height: 154px;
+        }
+      }
+      &_row2{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        button{
+          background-color: #3c90f7;
+           color: white;
+            padding: 0 30px;
+            line-height: 50px;
+            border: none;
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 25px;
+        }
+      }
+    }
+  }
+}
